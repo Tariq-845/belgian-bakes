@@ -1,147 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Lora:wght@400;500;700&display=swap');
 
+/* ---------------------------- General Rules */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    height: 100%;
-    overflow-x: hidden;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 body {
-    background-color: #fccfbf;
-    position: relative;
-    margin: 0;
-    padding-bottom: 4rem;
-    min-height: 100%;
+  background-color: #fccfbf;
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
 }
 
-/* Sidenav */
+/* ---------------------------- Sidenav */
 
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    right: 0;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-  }
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 160px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  background-color: #111;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+}
 
-  /* The navigation menu links */
+/* The navigation menu links */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
 
-  /* Hero image */
+/* ---------------------------- Header */
 
-  .hero-image {
-    width: 100%;
-    height: 250px;
-    background: url('../images/belgian-bakes-hero-image.png') no-repeat center center/cover;
-  }
+header {
+  text-align: center;
+  font-family: 'Dancing Script', serif;
+  font-size: 26px;
+  color: #818181;
+}
 
-  /* Main Content */
+header a {
+  text-decoration: none;
+  color: #818181;
+}
 
-  /* Header */
 
-  .main-content header {
-    text-align: center;
-  }
+/* ---------------------------- Hero Image */
 
-  .main-content header a {
-    text-decoration: none;
-    color: #818181;
-    font-family: 'Dancing Script', sans-serif;
-    font-size: 26px;
-  }
+.hero-image {
+  width: 100%;
+  height: 250px;
+  background: url('../images/belgian-bakes-hero-image.png') no-repeat center center/cover;
+}
 
-  .main-content {
-    margin-right: 160px;
-    margin-bottom: 10px;
-    padding: 0px 10px;
-  }
+/* ---------------------------- Main Content */
 
-  .main-content .hero-image {
-    margin-bottom: 10px;
-  }
 
-  .category {
-    display: flex;
-    justify-content: space-around;
-    gap: 5px;
-  }
+.main-content {
+  margin-right: 160px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
 
-  .cat1,
-  .cat2,
-  .cat3 {
-    border: 2px solid #818181;
-    border-radius: 4px;
-  }
+  font-family: 'Lora', sans-serif;
+}
 
-  .main-content .category .cat1 {
-    text-align: center;
-  }
+.main-content .hero-image {
+  margin-bottom: 10px;
+}
 
-  .main-content .category .cat2 {
-    text-align: center;
-  }
+.category {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
 
-  .main-content .category .cat3 {
-    text-align: center;
-  }
+.cat1,
+.cat2,
+.cat3 {
+  border: 2px solid #818181;
+  border-radius: 4px;
+}
 
-  .main-content .category a h2 {
-    font-family: 'Lora', sans-serif;
-    margin-bottom: 6px;
-  }
+.main-content .category a h2 {
+  margin-bottom: 6px;
+}
 
-  .main-content .category a p {
-    font-family: 'Lora', sans-serif;
-  }
+.main-content .category a {
+  text-decoration: none;
+  color: #818181;
 
-  .main-content .category a {
-    text-decoration: none;
-    color: #818181;
+}
 
-  }
+#donut {
+  width: 200px;
+  order: 0;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
 
-/* Footer */
+/* ---------------------------- Footer */
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 30px;
-    width: 100vw;
-    padding-top: 5px;
-    background-color: #DB93D2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100vw;
+  padding-top: 5px;
+  background-color: #DB93D2;
 }
 
 footer ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-right: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 160px;
 }
 
 /* Social Links */
 
 #social-links li {
-    text-decoration: none;
-    list-style-type: none;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 #social-links li a i {
-    color: #111;
-    font-size: 24px;
+  color: #111;
+  font-size: 24px;
 }
