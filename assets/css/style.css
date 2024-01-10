@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Lora:wght@400;500;700&display=swap');
 
 * {
     padding: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: bisque;
+    background-color: #fccfbf;
     position: relative;
     margin: 0;
     padding-bottom: 4rem;
@@ -78,12 +78,14 @@ body {
   .category {
     display: flex;
     justify-content: space-around;
+    gap: 5px;
   }
 
   .cat1,
   .cat2,
   .cat3 {
-    border: 1px solid #111;
+    border: 2px solid #818181;
+    border-radius: 4px;
   }
 
   .main-content .category .cat1 {
@@ -96,6 +98,21 @@ body {
 
   .main-content .category .cat3 {
     text-align: center;
+  }
+
+  .main-content .category a h2 {
+    font-family: 'Lora', sans-serif;
+    margin-bottom: 6px;
+  }
+
+  .main-content .category a p {
+    font-family: 'Lora', sans-serif;
+  }
+
+  .main-content .category a {
+    text-decoration: none;
+    color: #818181;
+
   }
 
 /* Footer */
