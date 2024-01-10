@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Lora:wght@400;500;700&display=swap');
 
+/* ---------------------------- General Rules */
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +20,7 @@ body {
   min-height: 100%;
 }
 
-/* Sidenav */
+/* ---------------------------- Sidenav */
 
 .sidenav {
   height: 100%;
@@ -49,21 +50,22 @@ body {
   display: block;
 }
 
-/* Header */
+/* ---------------------------- Header */
 
 .main-content header {
   text-align: center;
+  font-family: 'Dancing Script', serif;
+  font-size: 26px;
+  color: #818181;
 }
 
 .main-content header a {
   text-decoration: none;
   color: #818181;
-  font-family: 'Dancing Script', sans-serif;
-  font-size: 26px;
 }
 
 
-/* Hero image */
+/* ---------------------------- Hero Image */
 
 .hero-image {
   width: 100%;
@@ -71,13 +73,15 @@ body {
   background: url('../images/belgian-bakes-hero-image.png') no-repeat center center/cover;
 }
 
-/* Main Content */
+/* ---------------------------- Main Content */
 
 
 .main-content {
   margin-right: 160px;
   margin-bottom: 10px;
   padding: 0px 10px;
+
+  font-family: 'Lora', sans-serif;
 }
 
 .main-content .hero-image {
@@ -97,15 +101,8 @@ body {
   border-radius: 4px;
 }
 
-
-
 .main-content .category a h2 {
-  font-family: 'Lora', sans-serif;
   margin-bottom: 6px;
-}
-
-.main-content .category a p {
-  font-family: 'Lora', sans-serif;
 }
 
 .main-content .category a {
@@ -123,7 +120,7 @@ body {
   margin-bottom: 5px;
 }
 
-/* Footer */
+/* ---------------------------- Footer */
 
 footer {
   position: absolute;
