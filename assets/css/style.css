@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: bisque;
+    position: relative;
+    margin: 0;
+    padding-bottom: 4rem;
+    min-height: 100%;
+}
+
+/* Sidenav */
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  /* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  /* Hero image */
+
+  .hero-image {
+    width: 100%;
+    height: 250px;
+    background: url('../images/belgian-bakes-hero-image.png') no-repeat center center/cover;
+  }
+
+  /* Main Content */
+
+  /* Header */
+
+  .main-content header {
+    text-align: center;
+  }
+
+  .main-content header a {
+    text-decoration: none;
+    color: #818181;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 26px;
+  }
+
+  .main-content {
+    margin-right: 160px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+  }
+
+  .main-content .hero-image {
+    margin-bottom: 10px;
+  }
+
+  .category {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cat1,
+  .cat2,
+  .cat3 {
+    border: 1px solid #111;
+  }
+
+  .main-content .category .cat1 {
+    text-align: center;
+  }
+
+  .main-content .category .cat2 {
+    text-align: center;
+  }
+
+  .main-content .category .cat3 {
+    text-align: center;
+  }
+
+/* Footer */
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100vw;
+    padding-top: 5px;
+    background-color: #DB93D2;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 160px;
+}
+
+/* Social Links */
+
+#social-links li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#social-links li a i {
+    color: #111;
+    font-size: 24px;
+}
