@@ -66,7 +66,6 @@ header a {
   color: #818181;
 }
 
-
 /* ---------------------------- Hero Image */
 
 .hero-image {
@@ -126,10 +125,42 @@ header a {
 
 /* ---------------------------- Contact Page */
 
+.contact-page {
+  font-size: 24px;
+  margin: 0px ;
+  margin-top: 0px;
+}
+
+/* Flex container for pic and reach and social */
+.contact-container {
+  flex-shrink: 0;
+  margin-right: 10%;
+  margin-left: 15%;
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+
+.contact-container img {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Reach out */
 .reach-out {
   text-align: center;
   margin-bottom: 40px;
-  font-size: 24px;
 }
 
 .reach-out h2 {
@@ -138,16 +169,16 @@ header a {
   margin-bottom: 5px;
 }
 
+/* Socials */
 .socials-action {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 24px;
+  margin-bottom: 200px;
 }
 
 .socials-action h2 {
   text-decoration: underline;
   transform: skew(-5deg);
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .contact-social-links {
@@ -169,7 +200,91 @@ header a {
 
 .contact-social-links a {
   color: #111;
-  font-size: 24px;
+  font-size: 30px;
+}
+
+/* Map embed */
+
+.map-bg {
+  display: block;
+  height: fit-content;
+  background-color: rgba(153, 56, 56, 0.7);
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 1px;
+
+}
+
+.map-section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.map-text {
+  order: 1;
+  margin-left: 200px;
+  margin-top: 30px;
+
+}
+
+.map-text h2 {
+  transform: skew(-5deg);
+
+}
+
+#map-embed {
+  order: 2;
+  height: 465px;
+  padding: 5px;
+  
+  border: 2px solid #800232;
+  border-radius: 5px;
+  margin-left: 20px;
+  
+}
+
+#map-embed iframe {
+  
+}
+
+/* Newsletter */
+.newsletter {
+  margin-top: 50px;
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter hr {
+  width: 40%;
+  margin: auto;
+  border: 1px solid#800232;
+}
+
+
+#email-field {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.freq-buttons {
+  font-size: 18px;
+}
+
+#nl-button {
+  background-color: #d43b30;
+  padding: 5px 20px;
+  font-family: 'Lora', sans-serif;
+  color: antiquewhite;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 /* ---------------------------- Footer */
