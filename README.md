@@ -12,7 +12,7 @@ The website will be for users who are interested in Belgian-styled bakery and wi
     - We have recipe lists, which includes ingredients and step-by-step instructions for our users to follow along and create some of our amazing food. They can also share their results on our social pages.
 
 - __Map__
-    - We have embedded a map in our contact page for users to easily find the location of our store. It fits better in the contact page as that's where users expect all the company's information to be.
+    - We have embedded a map in our contact page for users to easily find the location of our store. It fits better in the contact page as that's where users expect all the company's contact information to be.
 
 ### Features Left to Implement
 - __Link to Shopping List__
