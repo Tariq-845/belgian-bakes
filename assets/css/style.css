@@ -241,19 +241,18 @@ footer ul {
     top: 50px;
     text-align: center;
     padding: 20px;
-  }
-
-  .about-main-content p {
     font-size: 95%;
-  }
-
-  .hidden {
-    display: visible;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .hidden {
+@media screen and (max-width: 425px) {
+  .hidden2 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #cover-text {
+    font-size: 75%;
   }
 }
