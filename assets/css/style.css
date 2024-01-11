@@ -126,18 +126,12 @@ header a {
 
 .contact-page {
   font-size: 24px;
+  margin: 0px 100px;
+  margin-top: 50px;
 }
 
 /* Flex container for pic and reach and social */
-.flex-contact {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
 
-.bakerportrait img {
-  justify-content: left;
-}
 
 
 /* Reach out */
@@ -155,7 +149,7 @@ header a {
 /* Socials */
 .socials-action {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 200px;
 }
 
 .socials-action h2 {
@@ -191,6 +185,7 @@ header a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .map-text {
@@ -211,6 +206,41 @@ header a {
   border: solid 2px #800232;
   border-radius: 5px;
   margin-left: 20px;
+}
+
+/* Newsletter */
+.newsletter {
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter hr {
+  width: 40%;
+  margin: auto;
+  border: 1px solid#800232;
+}
+
+
+#email-field {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.freq-buttons {
+  font-size: 18px;
+}
+
+#nl-button {
+  background-color: #d43b30;
+  padding: 5px 20px;
+  font-family: 'Lora', sans-serif;
+  color: antiquewhite;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 /* ---------------------------- Footer */
