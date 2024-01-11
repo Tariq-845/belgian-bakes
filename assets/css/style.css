@@ -128,6 +128,19 @@ header a {
   font-size: 24px;
 }
 
+/* Flex container for pic and reach and social */
+.flex-contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.bakerportrait img {
+  justify-content: left;
+}
+
+
+/* Reach out */
 .reach-out {
   text-align: center;
   margin-bottom: 40px;
@@ -139,6 +152,7 @@ header a {
   margin-bottom: 5px;
 }
 
+/* Socials */
 .socials-action {
   text-align: center;
   margin-bottom: 60px;
@@ -172,21 +186,22 @@ header a {
   font-size: 30px;
 }
 
+/* Map embed */
 .map-section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .map-text {
   order: 1;
   margin-left: 200px;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .map-text h2 {
-  margin-left: 30px;
   transform: skew(-5deg);
+
 }
 
 #map-embed {
@@ -196,8 +211,6 @@ header a {
   border: solid 2px #800232;
   border-radius: 5px;
   margin-left: 20px;
-  justify-content: center;
-  align-self: center;
 }
 
 /* ---------------------------- Footer */
