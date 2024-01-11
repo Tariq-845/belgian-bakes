@@ -220,10 +220,40 @@ footer ul {
 #cover-text {
   background-color: rgba(153, 56, 56, 0.7);
   position: relative;
-  width: 60%;
+  width: 100%;
+  height: 100%;
   margin: auto;
   /* right: 400px; */
-  top: 50px;
+  /* top: 50px; */
   text-align: center;
   padding: 20px;
+}
+
+/* ---------------------------- Media Queries (About section) */
+@media screen and (min-width: 768px) {
+  #cover-text {
+    background-color: rgba(153, 56, 56, 0.7);
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    /* right: 400px; */
+    top: 50px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-main-content p {
+    font-size: 95%;
+  }
+
+  .hidden {
+    display: visible;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
 }
