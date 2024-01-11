@@ -39,6 +39,8 @@ body {
   overflow-x: hidden;
   /* Disable horizontal scroll */
   padding-top: 20px;
+  /* Font style for sidebar */
+  font-family: 'Lora', sans-serif;
 }
 
 /* The navigation menu links */
@@ -212,6 +214,7 @@ footer ul {
 
 .about-section .about-header {
   margin-bottom: 20px;
+  font-size: 130%;
 }
 
 #cover-text {
@@ -222,4 +225,5 @@ footer ul {
   /* right: 400px; */
   top: 50px;
   text-align: center;
+  padding: 20px;
 }
