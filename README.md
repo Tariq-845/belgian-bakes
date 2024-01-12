@@ -1,14 +1,17 @@
 <h1 align="center">WMCA Hackathon 1 - Belgian Bakes</h1>
 
-Belgian Bakes is a website dedicated to showcasing the wide variety and amazing Belgian food that is easily accessible and loved by many world-wide.
+[View live project here](https://tariq-845.github.io/belgian-bakes/index.html)
 
-The website will be for users who are interested in Belgian-styled bakery and wish to try the food we offer.
+Belgian Bakes is a website dedicated to showcasing the wide variety and amazing Belgian food that is easily accessible and loved by many world-wide. The website will be for users who are interested in Belgian-styled bakery and wish to try the food we offer.
+
+![MockUp](/assets/images/am-i-responsive.png)
 
 ## Index 
 * [Features](#features)
 * [Wireframes](#wireframes)
 * [User Stories](#user-stories)
 * [Testing](#testing)
+* [Deployment](#deployment)
 * [Credits](#credits)
 
 ## Features
@@ -68,9 +71,9 @@ The website will be for users who are interested in Belgian-styled bakery and wi
 ### How this site was deployed
 - In the Github repository, select the repo you wish to deploy and navigate to the settings tab.
 - On the left hand side, under 'Code and automation', locate the 'Pages' tab and select it.
-- In the drop down menu under 'Source', select 'Deploy from a branch' option. Next go to the next drop down menu underneath 'Branch' and select the 'main' option.
+- In the drop down menu under 'Source', select 'Deploy from a branch' option. Next go to the next drop down menu underneath 'Branch', select the 'main' option and finally click 'Save'.
 - Once main is selected as the branch, it will automatically deploy the site and the page will refresh automatically with the link to your newly deployed project.
-- The live link cant be found here: [EDIT LINK IN ONCE DEPLOYED]
+- The live link can be found here: [Belgian Bakes](https://tariq-845.github.io/belgian-bakes/index.html)
 
 ## Credits
 
