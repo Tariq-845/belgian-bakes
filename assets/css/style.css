@@ -395,7 +395,7 @@ footer ul {
 @media screen and (max-width: 425px) {
   .contact-container {
     flex-shrink: 0;
-    
+
     display: flex;
     gap: 300px;
     align-items: center;
@@ -533,7 +533,7 @@ footer ul {
 
   .contact-container {
     flex-shrink: 0;
-    
+
     display: flex;
     gap: 300px;
     align-items: center;
