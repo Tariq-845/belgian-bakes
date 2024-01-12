@@ -533,6 +533,12 @@ footer ul {
   }
 }
 
+@media screen and (min-width: 992px) {
+  .map-section {
+    width: auto;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .bakerportrait {
     display: none;
