@@ -438,12 +438,15 @@ footer ul {
   #map-embed iframe {
     height: 200px;
     width: 450px;
-    
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .bakerportrait {
     display: none;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  
 }
