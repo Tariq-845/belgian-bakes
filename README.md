@@ -84,3 +84,8 @@ The website will be for users who are interested in Belgian-styled bakery and wi
 - [unsplash](https://unsplash.com/) 
 - [Pexels](https://www.pexels.com/) 
 - [Google](https://www.google.co.uk/)
+
+### Collaborators 
+- [Tariq](https://github.com/Tariq-845)
+- [Joseph](https://github.com/jomazzei)
+- [Tasniim](https://github.com/Tasniim5)
