@@ -1,8 +1,15 @@
-# WMCA Hackathon 1 - Belgian Bakes
+<h1 align="center">WMCA Hackathon 1 - Belgian Bakes</h1>
 
 Belgian Bakes is a website dedicated to showcasing the wide variety and amazing Belgian food that is easily accessible and loved by many world-wide.
 
 The website will be for users who are interested in Belgian-styled bakery and wish to try the food we offer.
+
+## Index 
+* [Features](#features)
+* [Wireframes](#wireframes)
+* [User Stories](#user-stories)
+* [Testing](#testing)
+* [Credits](#credits)
 
 ## Features
 - __Navigation Bar__
@@ -17,6 +24,10 @@ The website will be for users who are interested in Belgian-styled bakery and wi
 ### Features Left to Implement
 - __Link to Shopping List__
     - We are working on a feature that allows users to find specific ingredients that we've used at their local stores so users have a better experience when baking.
+- __Sign In/Up - User Accounts__
+    - Allowing users to create accounts for more personalisation.
+- __Saving Option__
+    - This feature will allow users to save their favourite recipes on our website for later use.
 
 ## Wireframes
 
@@ -29,6 +40,16 @@ The website will be for users who are interested in Belgian-styled bakery and wi
 ### Contact page
 ![contact](/assets/images/belgian%20bakes%20contact.png)
 
+## Technologies Used
+- __Languages__
+    - HTML5
+    - CSS3
+- __Libraries & Programs Used__
+    - [Github](https://github.com/) - Used for creating the repository and main hub for our project.
+    - [Gitpod](https://www.gitpod.io/) - Cloud based development environment used to write code and general collaboration for the project.
+    - [Trello](https://trello.com/) - Used as our team's Kanban board to monitor the progress of project development.
+    - MS Paint - Used for wireframing during our design process.
+
 ## User Stories
 - As a new user, I want to see what services you provide, so I can choose which service I need
 - As a new user, I want to be able to easily contact you, so I can reach out for further enquiries
@@ -39,9 +60,17 @@ The website will be for users who are interested in Belgian-styled bakery and wi
 
 ### Validator Testing
 - __HTML__
-    - Our HTML has been fully validated by [The W3C Markup Validator](https://validator.w3.org/#validate_by_input) and were no errors found.
+    - Our HTML has been fully validated by [The W3C Markup Validator](https://validator.w3.org/#validate_by_input) and there were no errors found.
 - __CSS__
     - Our CSS has been fully validated by [The W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and no errors were found.
+
+## Deployment
+### How this site was deployed
+- In the Github repository, select the repo you wish to deploy and navigate to the settings tab.
+- On the left hand side, under 'Code and automation', locate the 'Pages' tab and select it.
+- In the drop down menu under 'Source', select 'Deploy from a branch' option. Next go to the next drop down menu underneath 'Branch' and select the 'main' option.
+- Once main is selected as the branch, it will automatically deploy the site and the page will refresh automatically with the link to your newly deployed project.
+- The live link cant be found here: [EDIT LINK IN ONCE DEPLOYED]
 
 ## Credits
 
