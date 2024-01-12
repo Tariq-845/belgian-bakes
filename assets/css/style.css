@@ -20,8 +20,23 @@ body {
   min-height: 100%;
 }
 
-/* ---------------------------- Sidenav */
+/* ---------------------------- Sidenav toggle */
+#nav-toggle:checked~.sidenav {
+  display: block;
+}
 
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 3rem;
+  position: absolute;
+  left: 0;
+  padding-right: 10px;
+}
+
+/* ---------------------------- Sidenav */
 .sidenav {
   height: 100%;
   /* Full-height: remove this if you want "auto" height */
@@ -41,6 +56,8 @@ body {
   padding-top: 20px;
   /* Font style for sidebar */
   font-family: 'Lora', sans-serif;
+  /* Disbaled for sidenav toggle */
+  display: none;
 }
 
 /* The navigation menu links */
@@ -345,6 +362,19 @@ footer ul {
 }
 
 /* ---------------------------- Media Queries (About section) */
+@media screen and (max-width: 425px) {
+  .hidden2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #cover-text {
+    font-size: 75%;
+  }
+}
+
+
 @media screen and (min-width: 768px) {
   #cover-text {
     background-color: rgba(153, 56, 56, 0.7);
@@ -358,16 +388,12 @@ footer ul {
     padding: 20px;
     font-size: 95%;
   }
-}
 
-@media screen and (max-width: 425px) {
-  .hidden2 {
-    display: none;
+  .sidenav {
+    display: block;
   }
-}
 
-@media screen and (max-width: 320px) {
-  #cover-text {
-    font-size: 75%;
+  .nav-toggle-label {
+    display: none;
   }
 }
