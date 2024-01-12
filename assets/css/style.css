@@ -304,6 +304,10 @@ header a {
   font-size: 20px;
 }
 
+.bakerportrait {
+  display: none;
+}
+
 /* ---------------------------- Footer */
 
 footer {
@@ -395,5 +399,9 @@ footer ul {
 
   .nav-toggle-label {
     display: none;
+  }
+
+  .bakerportrait {
+    display: block;
   }
 }
